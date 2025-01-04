@@ -1,0 +1,23 @@
+# This file is generated automatically from metadata
+# File edits may be overwritten!
+- Project Name: thruster-pcb
+- Synopsis: 
+- Documentation Version: 1.0.0
+- Pcb Version: 1.0
+- Enclosure Version: 1.0
+- Supplemental BOM Version: 1.0
+- Release Date: 2025-01-04
+- Creation Date: 2025-01-04
+- Kicad Version: 7.0.11
+- License: GPL-3.0h
+- URL: https://github.com/mechatronicmagic/thruster-pcb
+- Author: Peter Polidoro
+- Email: peter@polidoro.io
+- Copyright: 2025 Howard Hughes Medical Institute
+- References:
+  - [[https://en.wikipedia.org/wiki/Servo_control][Servo Control]]
+  - [[https://www.savoxusa.com/products/savsb2264mg-low-profile-hv-brushless-servo][SB2264MG Servo]]
+  - [[https://www.nxp.com/products/power-management/lighting-driver-and-controller-ics/led-drivers/16-channel-12-bit-pwm-fm-plus-ic-bus-led-driver:PCA9685][PCA9685]]
+  - [[https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html][RP2040]]
+
+[[./documentation/pcb/raytrace.png]]
