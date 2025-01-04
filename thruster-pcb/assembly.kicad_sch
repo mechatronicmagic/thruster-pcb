@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "tmc5160-usb")
+    (title "thruster-pcb")
     (date "2024-05-10")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
@@ -155,7 +155,7 @@
     )
     (pin "1" (uuid 6e8cc233-18c8-4eae-a505-1fda4129eba4))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "H201") (unit 1)
         )
@@ -182,7 +182,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "FID202") (unit 1)
         )
@@ -207,7 +207,7 @@
     )
     (pin "1" (uuid f47ebc2c-1d07-4e77-9ae5-80cf1d3b6d3b))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "H204") (unit 1)
         )
@@ -232,7 +232,7 @@
     )
     (pin "1" (uuid 7659e75d-e1d4-42a5-aff2-1727f344211b))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "H203") (unit 1)
         )
@@ -259,7 +259,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "FID204") (unit 1)
         )
@@ -286,7 +286,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "FID201") (unit 1)
         )
@@ -311,7 +311,7 @@
     )
     (pin "1" (uuid 04553bbe-5ac7-4be5-b935-eaed2c7d7651))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "H202") (unit 1)
         )
@@ -338,7 +338,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e"
           (reference "FID203") (unit 1)
         )

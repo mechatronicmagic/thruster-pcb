@@ -403,7 +403,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "tmc5160-usb.kicad_pro",
+    "filename": "thruster-pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {

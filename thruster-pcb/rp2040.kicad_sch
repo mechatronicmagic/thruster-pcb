@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "tmc5160-usb")
+    (title "thruster-pcb")
     (date "2024-05-10")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
@@ -2715,7 +2715,7 @@
     (pin "1" (uuid 7f8781fb-cac9-4758-a75a-aeddf77ba3c4))
     (pin "2" (uuid 3f1f6ab6-ba80-4296-8a6b-6544c38a23c6))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1306") (unit 1)
         )
@@ -2762,7 +2762,7 @@
     (pin "2" (uuid 5e3f2c0f-082c-4077-a5ab-f08e2cc55224))
     (pin "1" (uuid ce1a6e91-6b13-47b4-8cb6-f248548ddfed))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1311") (unit 1)
         )
@@ -2809,7 +2809,7 @@
     (pin "2" (uuid f3c95fe1-f44f-43df-b625-657ace47d90d))
     (pin "1" (uuid 65f69d22-1f28-452d-99e9-e50bfd9898e1))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1316") (unit 1)
         )
@@ -2856,7 +2856,7 @@
     (pin "2" (uuid c63c8365-185d-4dee-88aa-607ba3fefeea))
     (pin "1" (uuid bbba155c-00aa-48e5-b261-1e05e6bf5928))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1307") (unit 1)
         )
@@ -2903,7 +2903,7 @@
     (pin "2" (uuid ba3f8ec8-fe6a-4e92-b65b-4995ddab4098))
     (pin "1" (uuid ceee8ab8-b43c-452e-a8e6-ac8c95f98815))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1309") (unit 1)
         )
@@ -2950,7 +2950,7 @@
     (pin "2" (uuid e30be462-cc3f-401e-94e2-1e3fb5324c4f))
     (pin "1" (uuid 7a3ed0c4-5ccf-47fc-a491-4c7e2b85f233))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1313") (unit 1)
         )
@@ -2999,7 +2999,7 @@
     (pin "1" (uuid 23354b25-56dd-42f3-a850-08faf945e7e7))
     (pin "2" (uuid 75e2c1bd-1969-4eb5-bc95-f474ec6a3017))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "SW1301") (unit 1)
         )
@@ -3024,7 +3024,7 @@
     )
     (pin "1" (uuid df753719-ff74-47d6-add5-87f80e2ab72b))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "#FLG01301") (unit 1)
         )
@@ -3071,7 +3071,7 @@
     (pin "2" (uuid 07c8ab03-82b8-4ce2-a2c0-77b7b902d346))
     (pin "1" (uuid 40b96b10-1d83-487f-9b1d-cc9d07da0e75))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1304") (unit 1)
         )
@@ -3118,7 +3118,7 @@
     (pin "2" (uuid 989b9908-5de7-4a3a-92bb-35f9aad4093a))
     (pin "1" (uuid b5f99cdb-85a9-4e6a-83f0-1495c3a3bea5))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1306") (unit 1)
         )
@@ -3168,7 +3168,7 @@
     (pin "2" (uuid 3168bf43-9283-45a6-a86d-b9098d03b023))
     (pin "1" (uuid 6f657654-bb98-4cde-8d5d-a647734e5082))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "D1301") (unit 1)
         )
@@ -3215,7 +3215,7 @@
     (pin "2" (uuid 5c649b83-1845-4a08-9a1f-029be8339d59))
     (pin "1" (uuid db26cf16-a620-4fe1-bba0-4cc0763726d9))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1314") (unit 1)
         )
@@ -3262,7 +3262,7 @@
     (pin "2" (uuid a0f57b59-e17b-4015-846b-558dd3e6ff9a))
     (pin "1" (uuid a060b04d-2109-42cc-92ed-1544c33aa1da))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1301") (unit 1)
         )
@@ -3309,7 +3309,7 @@
     (pin "1" (uuid e52386f8-cb64-434f-9c97-45ee6c89cb11))
     (pin "2" (uuid 2c9af191-9510-43d0-a6cc-5870844fa11f))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1302") (unit 1)
         )
@@ -3356,7 +3356,7 @@
     (pin "2" (uuid e208a960-f3db-4d05-8869-7e52eb64afca))
     (pin "1" (uuid 355ca84d-f818-41fc-ac59-353ae7d4aaf5))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1310") (unit 1)
         )
@@ -3403,7 +3403,7 @@
     (pin "2" (uuid b0e3db94-0c85-4415-8b3f-f22decb8172b))
     (pin "1" (uuid 48847ead-d2b8-4ad2-b71a-6b8caffa519a))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1312") (unit 1)
         )
@@ -3450,7 +3450,7 @@
     (pin "2" (uuid 62db43f8-66af-4ffe-9403-0b7ad8723e08))
     (pin "1" (uuid e7d32ffd-9eaa-4728-ad79-ea82e53d56b1))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1305") (unit 1)
         )
@@ -3497,7 +3497,7 @@
     (pin "1" (uuid 3e08ae7b-7cb2-4a69-bc6c-625557f236df))
     (pin "2" (uuid 78c79cbd-81c4-47e9-a72c-9abb0bec0127))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1303") (unit 1)
         )
@@ -3544,7 +3544,7 @@
     (pin "2" (uuid 972cb93c-8c7c-4a17-a353-5d609347f243))
     (pin "1" (uuid 97428cda-1256-4477-b704-04b4639bc1c1))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1302") (unit 1)
         )
@@ -3591,7 +3591,7 @@
     (pin "2" (uuid 22dd81e0-930c-4cdb-ad1c-136663155afd))
     (pin "1" (uuid 44781a50-f976-4814-9376-d236a3e77bf5))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1308") (unit 1)
         )
@@ -3664,7 +3664,7 @@
     (pin "S3" (uuid f68966bb-5044-41a2-b38b-1363b53f5667))
     (pin "S4" (uuid a1653275-2d75-4e6b-86fa-3766240c950f))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "J1301") (unit 1)
         )
@@ -3714,7 +3714,7 @@
     (pin "2" (uuid c5111c2c-65f8-4517-8f91-99a5da047ad5))
     (pin "1" (uuid c20d636d-6c40-45df-995e-071241b7eeee))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "D1302") (unit 1)
         )
@@ -3768,7 +3768,7 @@
     (pin "7" (uuid 28adb293-96a9-4b90-b171-895c63cbd003))
     (pin "2" (uuid c3cb180a-8f92-45b7-b189-57482274b730))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "U1301") (unit 1)
         )
@@ -3822,7 +3822,7 @@
     (pin "2" (uuid 32c3fb7b-387e-4113-be6e-a3c3c19fbdbd))
     (pin "1" (uuid 54f739ee-3606-4977-afb7-7147405c54c4))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "U1303") (unit 1)
         )
@@ -3869,7 +3869,7 @@
     (pin "2" (uuid 90163926-4a1f-4cd9-9e10-478cfa488b72))
     (pin "1" (uuid 78b58314-038c-4f86-ac04-268ccf2b9f19))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1304") (unit 1)
         )
@@ -3971,7 +3971,7 @@
     (pin "28" (uuid a364bc48-3d2a-467b-af46-16ca13b5381d))
     (pin "6" (uuid c4af15ea-5fd7-4ac1-988a-8ff54c0bc654))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "U1302") (unit 1)
         )
@@ -4018,7 +4018,7 @@
     (pin "2" (uuid 95f63fe0-bfee-4a31-8ac0-4eabbf284fae))
     (pin "1" (uuid 26391788-9d4c-4041-8013-af0f406b4bda))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1315") (unit 1)
         )
@@ -4065,7 +4065,7 @@
     (pin "2" (uuid 42ae3d25-b096-49d4-a363-c06e4d521e0f))
     (pin "1" (uuid 5dd16607-ba5f-4a76-a5f7-c707e015e4d7))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "C1303") (unit 1)
         )
@@ -4112,7 +4112,7 @@
     (pin "1" (uuid 830e7da7-35b1-423a-94be-5980e52aa845))
     (pin "2" (uuid 9483589c-5e6e-44e4-bafb-dc128b7ff41c))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1307") (unit 1)
         )
@@ -4159,7 +4159,7 @@
     (pin "1" (uuid 93ca6c11-f35e-4170-9cfe-f24dedd649d7))
     (pin "2" (uuid abecbe68-1e0e-4710-8b8e-b0a8e2e6410a))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1301") (unit 1)
         )
@@ -4206,7 +4206,7 @@
     (pin "2" (uuid b60f5ddf-f424-424d-b454-61e255a5412e))
     (pin "1" (uuid 5fc1052b-ee98-4433-a049-59f2bb3b90e1))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "R1305") (unit 1)
         )
@@ -4255,7 +4255,7 @@
     (pin "4" (uuid f1e3ded8-9c5c-4321-a43e-b28748d1c70e))
     (pin "3" (uuid 7949e217-077a-4b7b-bef0-0497dcb9bdc5))
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/69dff8eb-dcc1-4f17-9e1d-cf8103035e92"
           (reference "Y1301") (unit 1)
         )

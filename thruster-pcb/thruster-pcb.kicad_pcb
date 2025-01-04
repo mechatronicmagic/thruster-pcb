@@ -6,7 +6,7 @@
 
   (paper "A4")
   (title_block
-    (title "tmc5160-usb")
+    (title "thruster-pcb")
     (date "2024-05-08")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
@@ -8929,10 +8929,10 @@
   (gr_text "GND" (at 137.4 107.6) (layer "F.SilkS") (tstamp 8e0d59b6-8efb-42c4-a914-a26b3d2f255b)
     (effects (font (size 1 0.6) (thickness 0.15) bold))
   )
-  (gr_text "tmc5160-usb\nv1.0 2024/05\n48V 1.6A RMS 2.2A PEAK" (at 158.4 116.1) (layer "F.SilkS") (tstamp 9374dceb-0991-42d5-84ad-dd27b736783b)
+  (gr_text "thruster-pcb\nv1.0 2024/05\n48V 1.6A RMS 2.2A PEAK" (at 158.4 116.1) (layer "F.SilkS") (tstamp 9374dceb-0991-42d5-84ad-dd27b736783b)
     (effects (font (size 1 0.6) (thickness 0.15) bold))
   )
-  (gr_text "https://github.com/janelia-kicad/tmc5160-usb" (at 152.4 119.6) (layer "F.SilkS") (tstamp 9cb2852f-c8fb-4b2d-86fe-1b2eb1cb5930)
+  (gr_text "https://github.com/janelia-kicad/thruster-pcb" (at 152.4 119.6) (layer "F.SilkS") (tstamp 9cb2852f-c8fb-4b2d-86fe-1b2eb1cb5930)
     (effects (font (size 1 0.6) (thickness 0.15) bold))
   )
   (gr_text "Molex\n5055680281\nFan 255M\n" (at 141.9 85.6 90) (layer "F.SilkS") (tstamp a22f9c76-7101-44df-a768-9e97f8e950f3)

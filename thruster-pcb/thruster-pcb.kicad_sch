@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "tmc5160-usb")
+    (title "thruster-pcb")
     (date "2024-05-10")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
@@ -272,7 +272,7 @@
       (uuid 971a3653-aa7c-4ccc-b6e2-371c5acb1339)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "4"))
       )
     )
@@ -293,7 +293,7 @@
       (uuid 27cfdaec-c4e6-4a5e-aff6-ae19f93ba201)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "2"))
       )
     )
@@ -350,7 +350,7 @@
       (uuid a9669531-e43e-48de-b494-f72188b09ca2)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "13"))
       )
     )
@@ -391,7 +391,7 @@
       (uuid 4b3850e0-3b81-4b4d-b84b-3c85eb05b239)
     )
     (instances
-      (project "tmc5160-usb"
+      (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "3"))
       )
     )
