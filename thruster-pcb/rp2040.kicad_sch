@@ -6,9 +6,9 @@
 
   (title_block
     (title "thruster-pcb")
-    (date "2024-05-10")
+    (date "2025-01-04")
     (rev "1.0")
-    (company "Howard Hughes Medical Institute")
+    (company "Mechatronic Magic")
   )
 
   (lib_symbols

@@ -831,42 +831,6 @@
       "power"
     ],
     [
-      "039ac378-5273-4081-85bf-9eb26cb5ed57",
-      "tmc5160"
-    ],
-    [
-      "166b4ba4-5822-49d8-b309-f52ce04f60b1",
-      "mosfet1"
-    ],
-    [
-      "77ec754f-e73d-4b40-8cb6-04aa79ed075b",
-      "mosfet2"
-    ],
-    [
-      "3a5be366-e07c-4cea-9d17-ab6873df58d0",
-      "mosfet4"
-    ],
-    [
-      "015fc9e7-3ba8-423b-8c7a-1e6ac6af06ca",
-      "mosfet3"
-    ],
-    [
-      "310c6d75-c755-45f6-91bd-c6a3e28c41c3",
-      "mosfet6"
-    ],
-    [
-      "e5ac0a82-cfa0-413a-a1a3-5e88ae5fe4fa",
-      "mosfet5"
-    ],
-    [
-      "33c1e78d-612d-4de4-b4ab-c1f2402fd86d",
-      "mosfet7"
-    ],
-    [
-      "3cc889de-698d-4e8a-bf98-2840b1fad77e",
-      "mosfet8"
-    ],
-    [
       "69dff8eb-dcc1-4f17-9e1d-cf8103035e92",
       "rp2040"
     ]

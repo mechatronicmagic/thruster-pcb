@@ -23,7 +23,7 @@
   },
   "environment": {
     "vars": {
-      "KICAD_JANELIA_LIBRARY": "/home/polidorop/Repositories/kicad/janelia-kicad-library"
+      "KICAD_JANELIA_LIBRARY": "/home/polidorop/Repositories/mechatronicmagic/janelia-kicad-library"
     }
   },
   "graphics": {
@@ -70,6 +70,6 @@
     "pdf_viewer_name": "",
     "text_editor": "emacs",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/polidorop/Repositories/kicad/tmc5160-usb"
+    "working_dir": "/home/polidorop/Repositories/mechatronicmagic/thruster-pcb"
   }
 }

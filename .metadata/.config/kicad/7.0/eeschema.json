@@ -233,8 +233,9 @@
   },
   "system": {
     "file_history": [
-      "/home/polidorop/Repositories/kicad/tmc5160-usb/tmc5160-usb/tmc5160-usb.kicad_sch",
-      "/home/polidorop/Repositories/kicad/stepper-interface/stepper-interface/stepper-interface.kicad_sch"
+      "/home/polidorop/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_sch",
+      "/home/polidorop/Repositories/kicad/thruster-pcb/thruster-pcb/thruster-pcb.kicad_sch",
+      "/home/polidorop/Repositories/mechatronicmagic/stepper-interface/stepper-interface/stepper-interface.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 0,
