@@ -1,26 +1,26 @@
 {
   "annotation": {
     "automatic": true,
-    "messages_filter": 29,
-    "method": 1,
-    "options": 1,
+    "messages_filter": -1,
+    "method": 0,
+    "options": 0,
     "recursive": true,
     "scope": 0,
-    "sort_order": 1
+    "sort_order": 0
   },
   "appearance": {
     "color_theme": "user",
     "default_font": "KiCad Font",
-    "edit_label_height": 480,
+    "edit_label_height": -1,
     "edit_label_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_label_width": 985,
-    "edit_sheet_height": 383,
+    "edit_label_width": -1,
+    "edit_sheet_height": -1,
     "edit_sheet_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_sheet_width": 1039,
+    "edit_sheet_width": -1,
     "edit_symbol_height": 594,
     "edit_symbol_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_symbol_width": 1126,
-    "erc_severities": 10,
+    "edit_symbol_width": 1121,
+    "erc_severities": 24,
     "footprint_preview": true,
     "print_sheet_reference": true,
     "show_erc_errors": true,
@@ -48,27 +48,22 @@
   "bom": {
     "plugins": [
       {
-        "command": "/gnu/store/3lxr2xg3yscdb3979blgjg0h7xd1n9la-python-3.10.7/bin/python3 \"/gnu/store/wkb3dhpkykiq6lfsvfy80ri8j6gfc68i-kicad-7.0.11/share/kicad/plugins/bom_csv_grouped_extra.py\" \"%I\" \"%O.csv\"",
+        "command": "",
         "name": "bom_csv_grouped_extra",
         "path": "bom_csv_grouped_extra.py"
       },
       {
-        "command": "/gnu/store/3lxr2xg3yscdb3979blgjg0h7xd1n9la-python-3.10.7/bin/python3 \"/gnu/store/wkb3dhpkykiq6lfsvfy80ri8j6gfc68i-kicad-7.0.11/share/kicad/plugins/bom_csv_grouped_by_value.py\" \"%I\" \"%O.csv\"",
+        "command": "",
         "name": "bom_csv_grouped_by_value",
         "path": "bom_csv_grouped_by_value.py"
       },
       {
-        "command": "/gnu/store/3lxr2xg3yscdb3979blgjg0h7xd1n9la-python-3.10.7/bin/python3 \"/gnu/store/wkb3dhpkykiq6lfsvfy80ri8j6gfc68i-kicad-7.0.11/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py\" \"%I\" \"%O.csv\"",
+        "command": "",
         "name": "bom_csv_grouped_by_value_with_fp",
         "path": "bom_csv_grouped_by_value_with_fp.py"
-      },
-      {
-        "command": "",
-        "name": "bom2grouped_csv_jlcpcb",
-        "path": "/home/polidorop/.local/share/kicad/7.0/plugins/bom2grouped_csv_jlcpcb.xsl"
       }
     ],
-    "selected_plugin": "bom2grouped_csv_jlcpcb"
+    "selected_plugin": ""
   },
   "color_picker": {
     "default_tab": 0
@@ -90,7 +85,7 @@
     "default_sheet_border_color": "rgba(0, 0, 0, 0.000)",
     "default_text_size": 50,
     "default_wire_thickness": 6,
-    "field_names": "(templatefields)",
+    "field_names": "",
     "junction_size_choice": 3,
     "junction_size_mult_list": [
       0.0,
@@ -111,9 +106,7 @@
     "fields_show": {}
   },
   "find_replace": {
-    "find_history": [
-      ""
-    ],
+    "find_history": [],
     "find_string": "",
     "match_case": false,
     "match_mode": 0,
@@ -174,17 +167,17 @@
     "export_comment7": false,
     "export_comment8": false,
     "export_comment9": false,
-    "export_company": true,
-    "export_date": true,
+    "export_company": false,
+    "export_date": false,
     "export_paper": false,
-    "export_revision": true,
-    "export_title": true
+    "export_revision": false,
+    "export_title": false
   },
   "plot": {
     "background_color": false,
     "color": true,
-    "color_theme": "_builtin_default",
-    "format": 4,
+    "color_theme": "user",
+    "format": 0,
     "frame_reference": true,
     "hpgl_origin": 0,
     "hpgl_paper_size": 0,
@@ -224,18 +217,17 @@
     }
   },
   "symbol_chooser": {
-    "height": 713,
+    "height": -1,
     "keep_symbol": false,
     "place_all_units": true,
-    "sash_pos_h": 491,
-    "sash_pos_v": 546,
-    "width": 780
+    "sash_pos_h": -1,
+    "sash_pos_v": -1,
+    "width": -1
   },
   "system": {
     "file_history": [
       "/home/polidorop/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_sch",
-      "/home/polidorop/Repositories/kicad/thruster-pcb/thruster-pcb/thruster-pcb.kicad_sch",
-      "/home/polidorop/Repositories/mechatronicmagic/stepper-interface/stepper-interface/stepper-interface.kicad_sch"
+      "/home/polidorop/tmp/icebreaker/hardware/bitsy-v1.1c/icebreaker-bitsy.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 0,
@@ -243,12 +235,12 @@
     "last_symbol_lib_dir": "",
     "max_undo_items": 0,
     "never_show_rescue_dialog": false,
-    "units": 0
+    "units": 1
   },
   "window": {
     "cursor": {
       "always_show_cursor": true,
-      "fullscreen_cursor": true
+      "fullscreen_cursor": false
     },
     "display": 0,
     "grid": {
@@ -266,11 +258,11 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1204;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=390;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=252;floaty=70;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=396;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=762;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=390;besth=154;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=38|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=363|dock_size(4,3,0)=202|",
-    "pos_x": 0,
-    "pos_y": 25,
-    "size_x": 1220,
-    "size_y": 756,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1204;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=390;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=572;floaty=282;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=396;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=762;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=390;besth=154;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=38|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=381|dock_size(4,3,0)=202|",
+    "pos_x": 320,
+    "pos_y": 237,
+    "size_x": 1280,
+    "size_y": 720,
     "zoom_factors": [
       0.05,
       0.07,

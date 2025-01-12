@@ -23,7 +23,7 @@
   },
   "environment": {
     "vars": {
-      "KICAD_JANELIA_LIBRARY": "/home/polidorop/Repositories/mechatronicmagic/janelia-kicad-library"
+      "KICAD_JANELIA_LIBRARY": "/home/polidorop/Repositories/kicad/janelia-kicad-library"
     }
   },
   "graphics": {
