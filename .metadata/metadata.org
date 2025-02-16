@@ -48,7 +48,7 @@ thruster-pcb
 [[https://en.wikipedia.org/wiki/Servo_control][Servo Control]]
 [[https://www.savoxusa.com/products/savsb2264mg-low-profile-hv-brushless-servo][SB2264MG Servo]]
 [[https://www.nxp.com/products/power-management/lighting-driver-and-controller-ics/led-drivers/16-channel-12-bit-pwm-fm-plus-ic-bus-led-driver:PCA9685][PCA9685]]
-[[https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html][RP2040]]
+[[https://www.adafruit.com/product/4062][nRF52840 Express]]
 #+END_SRC
 
 #+NAME: creation-date
@@ -135,7 +135,7 @@ peter@polidoro.io
 
 #+NAME: affiliation
 #+BEGIN_SRC text :exports none :noweb yes
-Howard Hughes Medical Institute
+Mechatronic Magic
 #+END_SRC
 
 #+NAME: copyright
@@ -366,13 +366,13 @@ exit
         (url "https://github.com/guix-janelia/guix-janelia.git")
         (branch "main")
         (commit
-          "6d2cb9cdd679f90c1a4fb02af02d2d1cfe2fcca6"))
+          "00269482830083a52441bbacda39e1fb70fb017f"))
       (channel
         (name 'guix)
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "6cb181c07f83dfdeae1882208941086f3717a165")
+          "6dde0ee30e5e030c2535514e9e39aa50518a5d20")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"

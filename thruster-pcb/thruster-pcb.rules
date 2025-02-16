@@ -1,0 +1,247 @@
+
+(rules PCB thruster-pcb
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 13)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 4.5)
+    )
+    (layer_rule Inner1.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+    (layer_rule Inner2.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clearance 125.2)
+    (clearance 150.0 (type smd_to_turn_gap))
+    (clearance 31.4 (type smd))
+    (clearance 125.2 (type "kicad_default"))
+    (clearance 125.2 (type "High Current"))
+    (clearance 125.2 (type Power))
+    (clearance 125.2 (type Signal))
+    (clearance 125.2 (type "Super Power"))
+  )
+  (padstack "Via[0-3]_400:200_um"
+    (shape
+      (circle F.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner1.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner2.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 400.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_2250:500_um"
+    (shape
+      (circle F.Cu 2250.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner1.Cu 2250.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner2.Cu 2250.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 2250.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_750:250_um"
+    (shape
+      (circle F.Cu 750.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner1.Cu 750.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner2.Cu 750.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 750.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_400:200_um" "Via[0-3]_400:200_um" default
+  )
+  (via 
+    "Via[0-3]_2250:500_um" "Via[0-3]_2250:500_um" default
+  )
+  (via 
+    "Via[0-3]_750:250_um" "Via[0-3]_750:250_um" default
+  )
+  (via 
+    "Via[0-3]_400:200_um-kicad_default" "Via[0-3]_400:200_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_2250:500_um-kicad_default" "Via[0-3]_2250:500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_750:250_um-kicad_default" "Via[0-3]_750:250_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_400:200_um-High Current" "Via[0-3]_400:200_um" "High Current"
+  )
+  (via 
+    "Via[0-3]_2250:500_um-High Current" "Via[0-3]_2250:500_um" "High Current"
+  )
+  (via 
+    "Via[0-3]_750:250_um-High Current" "Via[0-3]_750:250_um" "High Current"
+  )
+  (via 
+    "Via[0-3]_400:200_um-Power" "Via[0-3]_400:200_um" Power
+  )
+  (via 
+    "Via[0-3]_2250:500_um-Power" "Via[0-3]_2250:500_um" Power
+  )
+  (via 
+    "Via[0-3]_750:250_um-Power" "Via[0-3]_750:250_um" Power
+  )
+  (via 
+    "Via[0-3]_400:200_um-Signal" "Via[0-3]_400:200_um" Signal
+  )
+  (via 
+    "Via[0-3]_2250:500_um-Signal" "Via[0-3]_2250:500_um" Signal
+  )
+  (via 
+    "Via[0-3]_750:250_um-Signal" "Via[0-3]_750:250_um" Signal
+  )
+  (via 
+    "Via[0-3]_400:200_um-Super Power" "Via[0-3]_400:200_um" "Super Power"
+  )
+  (via 
+    "Via[0-3]_2250:500_um-Super Power" "Via[0-3]_2250:500_um" "Super Power"
+  )
+  (via 
+    "Via[0-3]_750:250_um-Super Power" "Via[0-3]_750:250_um" "Super Power"
+  )
+  (via_rule
+    default "Via[0-3]_400:200_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_400:200_um-kicad_default"
+  )
+  (via_rule
+    "High Current" "Via[0-3]_2250:500_um-High Current"
+  )
+  (via_rule
+    Power "Via[0-3]_750:250_um-Power"
+  )
+  (via_rule
+    Signal "Via[0-3]_400:200_um-Signal"
+  )
+  (via_rule
+    "Super Power" "Via[0-3]_750:250_um-Super Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner1.Cu Inner2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "unconnected-(A401-GND-Pad3)" "unconnected-(A401-GND-Pad8)" "unconnected-(A401-GND-Pad13)" "unconnected-(A401-GND-Pad18)" "unconnected-(A401-UART0-TX{slash}I2C0-SDA{slash}SPI0-RX{slash}GP16-Pad21)" "unconnected-(A401-UART0-RX{slash}I2C0-SCL{slash}SPI0-CS{slash}GP17-Pad22)" "unconnected-(A401-GND-Pad23)" "unconnected-(A401-I2C1-SDA{slash}SPI0-SCK{slash}GP18-Pad24)"
+    "unconnected-(A401-I2C1-SCL{slash}SPI0-TX{slash}GP19-Pad25)" "unconnected-(A401-I2C0-SDA{slash}GP20-Pad26)" "unconnected-(A401-I2C0-SCL{slash}GP21-Pad27)" "unconnected-(A401-GND-Pad28)" "unconnected-(A401-I2C1-SCL{slash}SPI0-TX{slash}GP7-Pad10)" "unconnected-(A401-RUN-Pad30)" "unconnected-(A401-GP22-Pad29)" "/~{ADDRESS_RESET}"
+    "unconnected-(A401-AGND{slash}GND-Pad33)" "/~{ADDRESS_INT}" "unconnected-(A401-ADC_VREF-Pad35)" "unconnected-(A401-3V3_EN-Pad37)" "unconnected-(A401-VBUS-Pad40)" "/power/LED_RED+" "unconnected-(U301-PGOOD-Pad1)" "unconnected-(U301-SW-Pad5)"
+    "unconnected-(U301-SW-Pad6)" "unconnected-(U301-BOOT-Pad7)" /power/VDD /SDA /SCL /AUDIO "Net-(C1402-Pad2)" "Net-(C1403-Pad2)"
+    /audio/BYPASS "Net-(U502-IN)" "Net-(U602-IN)" "Net-(U702-IN)" "Net-(U802-IN)" "Net-(U902-IN)" "Net-(U1002-IN)" "Net-(U1102-IN)"
+    /address/P0 /address/P1 /address/P2 /address/P3 /address/P4 /address/P5 /address/P6 /address/P7
+    "/audio/IN-" /audio/IN+ /audio/VO+ "/audio/VO-" "unconnected-(SP1401-NC-Pad3)" "unconnected-(SP1401-NC-Pad4)" "unconnected-(U502-~{FAULT}-Pad3)" "unconnected-(U602-~{FAULT}-Pad3)"
+    "unconnected-(U702-~{FAULT}-Pad3)" "unconnected-(U802-~{FAULT}-Pad3)" "unconnected-(U902-~{FAULT}-Pad3)" "unconnected-(U1002-~{FAULT}-Pad3)" "unconnected-(U1102-~{FAULT}-Pad3)" "unconnected-(U1301-NC-Pad3)" "unconnected-(U1301-S8B-Pad4)" "unconnected-(U1301-NC-Pad13)"
+    "unconnected-(U1301-NC-Pad14)" "unconnected-(U1301-S8A-Pad26)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner1.Cu Inner2.Cu B.Cu)
+    )
+  )
+  (class "High Current"
+    /power/VAA "/prism-0/VCC" "/prism-1/VCC" "/prism-2/VCC" "/prism-3/VCC" "/prism-5/VCC" "/prism-4/VCC" "/prism-6/VCC"
+    (clearance_class "High Current")
+    (via_rule "High Current")
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner1.Cu Inner2.Cu B.Cu)
+    )
+  )
+  (class Power
+    /GND /+5V /+3.3V
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner1.Cu Inner2.Cu B.Cu)
+    )
+  )
+  (class Signal
+    /TX /RX "/MUX_ADDRESS_2" "/prism-0/SWP" "/prism-0/SWN" "/prism-1/SWP" "/prism-1/SWN" "/prism-2/SWP"
+    "/prism-2/SWN" "/prism-3/SWP" "/prism-3/SWN" "/prism-5/SWP" "/prism-5/SWN" "/prism-4/SWP" "/prism-4/SWN" "/prism-6/SWP"
+    "/prism-6/SWN" "/MUX_ADDRESS_1" "/MUX_ADDRESS_0" "/ENABLE_TXRX_6" "/ENABLE_TXRX_5" "/ENABLE_TXRX_4" "/ENABLE_TXRX_3" "/ENABLE_TXRX_2"
+    "/ENABLE_TXRX_1" "/ENABLE_TXRX_0" "/ENABLE_POWER" "/RX_0" "/TX_0" "/RX_1" "/TX_1" "/RX_2"
+    "/TX_2" "/RX_3" "/TX_3" "/RX_5" "/TX_5" "/RX_4" "/TX_4" "/RX_6"
+    "/TX_6"
+    (clearance_class Signal)
+    (via_rule Signal)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner1.Cu Inner2.Cu B.Cu)
+    )
+  )
+  (class "Super Power"
+    /microcontroller/VSYS /VAA "/prism-0/VBB" "/prism-1/VBB" "/prism-2/VBB" "/prism-3/VBB" "/prism-5/VBB" "/prism-4/VBB"
+    "/prism-6/VBB"
+    (clearance_class "Super Power")
+    (via_rule "Super Power")
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner1.Cu Inner2.Cu B.Cu)
+    )
+  )
+)
