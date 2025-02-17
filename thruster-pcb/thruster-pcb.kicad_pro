@@ -599,42 +599,6 @@
     [
       "90ad6836-1738-4b32-a341-0a0b169f4662",
       "microcontroller"
-    ],
-    [
-      "622b6afe-64ba-4b4f-894e-aa16e3fefe2c",
-      "prism-0"
-    ],
-    [
-      "a71d32da-f9cb-43f1-ab25-5fee9e3817d5",
-      "prism-1"
-    ],
-    [
-      "9d4d3b5f-be88-4261-b203-2246a336433c",
-      "prism-2"
-    ],
-    [
-      "db5894f8-55af-48c2-a941-3e31d7793716",
-      "prism-3"
-    ],
-    [
-      "6d3bcc59-228e-43b3-9299-2dd708dcaa45",
-      "prism-5"
-    ],
-    [
-      "bfbaa572-51ae-4b71-8c7f-4f186195adbc",
-      "prism-4"
-    ],
-    [
-      "78ebced8-6951-4549-97f4-07e6588cf891",
-      "prism-6"
-    ],
-    [
-      "4efcb6a8-711f-428b-9f4e-1f72ad1e6234",
-      "address"
-    ],
-    [
-      "8de171d4-4e75-4cdf-9501-3b3bf67d41fa",
-      "audio"
     ]
   ],
   "text_variables": {}
