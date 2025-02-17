@@ -599,6 +599,10 @@
     [
       "90ad6836-1738-4b32-a341-0a0b169f4662",
       "microcontroller"
+    ],
+    [
+      "7c6bc32d-14d4-4145-939e-abb0791bc1fc",
+      "thrusters"
     ]
   ],
   "text_variables": {}

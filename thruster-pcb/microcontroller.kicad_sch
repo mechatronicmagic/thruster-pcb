@@ -510,6 +510,30 @@
   )
 
 
+  (no_connect (at 106.68 125.73) (uuid 045790f5-f7d9-4f8b-8c9e-829acdcb331c))
+  (no_connect (at 149.86 105.41) (uuid 101083d3-2156-4c8b-9d6f-b9f6180e426a))
+  (no_connect (at 106.68 123.19) (uuid 2a78b80f-9885-46c1-9345-cab6b40572d0))
+  (no_connect (at 106.68 107.95) (uuid 3ec159b5-0f8a-4c93-ac3f-9b12365c15d8))
+  (no_connect (at 106.68 120.65) (uuid 5a0d9f88-367d-43a9-a2d6-59a65512a899))
+  (no_connect (at 106.68 97.79) (uuid 76c3fb09-4e83-4100-b5b7-e11be1d6a2b7))
+  (no_connect (at 106.68 110.49) (uuid 7b58f540-64dc-4073-b04a-23523b36cf6d))
+  (no_connect (at 149.86 110.49) (uuid 7c320b5e-5e80-455e-97d2-1ebe4cbbcbe0))
+  (no_connect (at 106.68 113.03) (uuid 84f9315e-3773-4e96-81dc-d395d54863ae))
+  (no_connect (at 106.68 105.41) (uuid 88b16b48-d06b-4082-ab94-477fec850f4d))
+  (no_connect (at 106.68 115.57) (uuid a09f4fed-1018-478e-ab95-b3ab68781a84))
+  (no_connect (at 149.86 115.57) (uuid a45948ab-bddf-457e-a594-fdcd6fb8c357))
+  (no_connect (at 149.86 120.65) (uuid a4675e94-1e97-4c18-a52b-f89a5b91b11f))
+  (no_connect (at 149.86 113.03) (uuid af987fd3-1b25-4a0b-a449-334d27f6dc46))
+  (no_connect (at 149.86 123.19) (uuid b4ce164b-2e85-4d60-bc23-d1d9b6be6d45))
+  (no_connect (at 106.68 92.71) (uuid c352a5f2-d7ca-4f97-947f-a23ba65dfc2b))
+  (no_connect (at 149.86 102.87) (uuid c91b1d91-3c26-491f-a7a4-a893c5a9f99b))
+  (no_connect (at 149.86 118.11) (uuid ce9111a1-f428-4f37-a513-08e05b237ad4))
+  (no_connect (at 106.68 130.81) (uuid e4c50b6a-66f4-4cf0-82ac-f7aefc0bd4e1))
+  (no_connect (at 106.68 128.27) (uuid ef56ba57-aade-4671-ac9e-b6cd4fbf4b80))
+  (no_connect (at 149.86 125.73) (uuid f8de8607-393f-481d-af62-4aae2033143d))
+  (no_connect (at 106.68 118.11) (uuid fd956f99-ea3e-4c63-9fb6-f0e6a2f68940))
+  (no_connect (at 106.68 102.87) (uuid fed53be1-0b9c-456a-a34a-6979184726f4))
+
   (wire (pts (xy 207.01 46.99) (xy 207.01 49.53))
     (stroke (width 0) (type default))
     (uuid 11c734da-e3bf-4ccd-b5c6-456047c19918)
@@ -827,7 +851,7 @@
   (symbol (lib_id "Janelia:FEATHERWING_nRF52_HEADERS") (at 128.27 111.76 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdbc071b-fe54-423f-bb9b-333b4f37e946)
-    (property "Reference" "FW1" (at 128.27 82.55 0)
+    (property "Reference" "FW401" (at 128.27 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FEATHERWING_nRF52_HEADERS" (at 128.27 85.09 0)
@@ -888,7 +912,7 @@
     (instances
       (project "thruster-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/90ad6836-1738-4b32-a341-0a0b169f4662"
-          (reference "FW1") (unit 1)
+          (reference "FW401") (unit 1)
         )
       )
     )
