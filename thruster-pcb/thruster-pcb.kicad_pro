@@ -488,8 +488,8 @@
         "name": "Super Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "via_diameter": 0.75,
+        "track_width": 0.75,
+        "via_diameter": 1.25,
         "via_drill": 0.25,
         "wire_width": 6
       }
@@ -502,39 +502,23 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "/+3.3V"
+        "pattern": "*+3.3V"
       },
       {
         "netclass": "Power",
-        "pattern": "/+5V"
+        "pattern": "*GND"
       },
       {
         "netclass": "Power",
-        "pattern": "/GND"
+        "pattern": "*+6V"
       },
       {
-        "netclass": "Super Power",
-        "pattern": "/power/VAA"
+        "netclass": "Power",
+        "pattern": "*+5V"
       },
       {
-        "netclass": "Super Power",
-        "pattern": "/prism*/VBB"
-      },
-      {
-        "netclass": "Super Power",
-        "pattern": "/prism*/VCC"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/ENABLE_POWER"
-      },
-      {
-        "netclass": "Super Power",
-        "pattern": "*VSYS"
-      },
-      {
-        "netclass": "High Current",
-        "pattern": "/VAA"
+        "netclass": "Power",
+        "pattern": "*VBUS"
       }
     ]
   },
