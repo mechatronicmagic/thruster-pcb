@@ -1,15 +1,15 @@
-- [Repository Info](#orgce80fcb)
-- [Images](#org1e3806e)
-- [Schematic](#org159c394)
-- [PCB](#org68cfc3f)
-- [Bill of Materials](#orgc4155db)
-- [Development](#orgb854619)
+- [Repository Info](#orgc92ddc7)
+- [Images](#orgb0e5fd8)
+- [Schematic](#orgc084430)
+- [PCB](#org5247e85)
+- [Bill of Materials](#org412c495)
+- [Development](#org01d2cc8)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgce80fcb"></a>
+<a id="orgc92ddc7"></a>
 
 # Repository Info
 
@@ -33,10 +33,10 @@
     -   [PCA9685](https://www.nxp.com/products/power-management/lighting-driver-and-controller-ics/led-drivers/16-channel-12-bit-pwm-fm-plus-ic-bus-led-driver:PCA9685)
     -   [nRF52840 Express](https://www.adafruit.com/product/4062)
 
-![img](./documentation/pcb/raytrace.png)
+![img](./documentation/pcb/pcb.png)
 
 
-<a id="org1e3806e"></a>
+<a id="orgb0e5fd8"></a>
 
 # Images
 
@@ -53,7 +53,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org159c394"></a>
+<a id="orgc084430"></a>
 
 # Schematic
 
@@ -70,7 +70,7 @@
 <img src="./documentation/schematic/thruster-pcb-thrusters.svg" width="1920">
 
 
-<a id="org68cfc3f"></a>
+<a id="org5247e85"></a>
 
 # PCB
 
@@ -85,7 +85,7 @@
 <img src="./documentation/pcb/thruster-pcb-B_Fab.svg" width="1920">
 
 
-<a id="orgc4155db"></a>
+<a id="org412c495"></a>
 
 # Bill of Materials
 
@@ -99,13 +99,14 @@
 
 ## Supplemental
 
-| Item | Synopsis                          | Manufacturer Part Number | Manufacturer | Quantity | Cost  | Total |
-|---- |--------------------------------- |------------------------ |------------ |-------- |----- |----- |
-| 1    | Adafruit Feather nRF52840 Express | 4062                     | adafruit     | 1        | 24.95 | 24.95 |
-|      | Supplemental BOM Version: 1.0     |                          |              |          | Total | 24.95 |
+| Item | Synopsis                                                            | Manufacturer Part Number | Manufacturer | Quantity | Cost  | Total |
+|---- |------------------------------------------------------------------- |------------------------ |------------ |-------- |----- |----- |
+| 1    | Adafruit Feather nRF52840 Express                                   | 4062                     | adafruit     | 1        | 24.95 | 24.95 |
+| 2    | NiMH Battery (6V, 2700mAh, 2-Pos TJC8 Power Connector [MH-FC], 6-1) | 3100-0006-0001           | servocity    | 1        | 14.99 | 14.99 |
+|      | Supplemental BOM Version: 1.0                                       |                          |              |          | Total | 39.94 |
 
 
-<a id="orgb854619"></a>
+<a id="org01d2cc8"></a>
 
 # Development
 

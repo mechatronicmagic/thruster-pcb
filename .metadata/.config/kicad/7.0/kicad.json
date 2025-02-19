@@ -58,6 +58,7 @@
   "system": {
     "check_for_updates": 1,
     "file_history": [
+      "/home/peter/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_pro",
       "/home/polidorop/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_pro",
       "/home/polidorop/tmp/icebreaker/hardware/bitsy-v1.1c/icebreaker-bitsy.kicad_pro"
     ],
@@ -66,7 +67,7 @@
     "last_metric_units": 1,
     "max_undo_items": 0,
     "open_projects": [
-      ""
+      "/home/peter/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_pro"
     ],
     "units": 1
   },
@@ -114,10 +115,10 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/home/polidorop/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/",
+    "mru_path": "/home/peter/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/",
     "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=583;besth=560;minw=583;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=583|",
-    "pos_x": 543,
-    "pos_y": 149,
+    "pos_x": 562,
+    "pos_y": 105,
     "size_x": 1065,
     "size_y": 584,
     "zoom_factors": []

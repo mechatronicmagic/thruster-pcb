@@ -65,7 +65,7 @@
   },
   "export_step": {
     "no_virtual": false,
-    "origin_mode": 2,
+    "origin_mode": 1,
     "origin_units": 0,
     "origin_x": 0.0,
     "origin_y": 0.0,
@@ -298,7 +298,7 @@
     "onlySMD": false,
     "output_directory": "../documentation/fabrication/",
     "units": 1,
-    "use_place_file_origin": true
+    "use_place_file_origin": false
   },
   "plot": {
     "all_layers_on_one_page": 1,
@@ -337,6 +337,7 @@
   },
   "system": {
     "file_history": [
+      "/home/peter/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_pcb",
       "/home/polidorop/Repositories/mechatronicmagic/thruster-pcb/thruster-pcb/thruster-pcb.kicad_pcb",
       ""
     ],
@@ -383,7 +384,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": true
     },
-    "display": 0,
+    "display": 1,
     "footprint_text_shown_columns": "0 1 2 3 4 5 6",
     "grid": {
       "axes_enabled": false,

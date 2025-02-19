@@ -221,20 +221,21 @@ Hello $addressee
 - References:
   - <<references>>
 
-[[./<<pcb-dir>>/raytrace.png]]
+[[./<<pcb-dir>>/pcb.png]]
 
 <<description>>
 #+END_SRC
 
-# #+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">
+# #+html: <img src="./<<pcb-dir>>/pcb.png" width="<<image-width>>">
 
 #+NAME: supplemental-bom
 #+BEGIN_SRC org :noweb yes
-| Item | Synopsis                                               | Manufacturer Part Number | Manufacturer | Quantity | Cost  | Total |
-|------+--------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
-|    1 | Adafruit Feather nRF52840 Express                      |                     4062 | adafruit     |        1 | 24.95 | 24.95 |
-|------+--------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
-|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |              |          | Total | 24.95 |
+| Item | Synopsis                                                            | Manufacturer Part Number | Manufacturer | Quantity |  Cost | Total |
+|------+---------------------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
+|    1 | Adafruit Feather nRF52840 Express                                   |                     4062 | adafruit     |        1 | 24.95 | 24.95 |
+|    2 | NiMH Battery (6V, 2700mAh, 2-Pos TJC8 Power Connector [MH-FC], 6-1) |           3100-0006-0001 | servocity    |        1 | 14.99 | 14.99 |
+|------+---------------------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
+|      | Supplemental BOM Version: <<supplemental-bom-version>>              |                          |              |          | Total | 39.94 |
 ,#+TBLFM: @2$1..@>>$1=@#-1::$7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+END_SRC
 

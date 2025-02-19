@@ -20,4 +20,4 @@
   - [[https://www.nxp.com/products/power-management/lighting-driver-and-controller-ics/led-drivers/16-channel-12-bit-pwm-fm-plus-ic-bus-led-driver:PCA9685][PCA9685]]
   - [[https://www.adafruit.com/product/4062][nRF52840 Express]]
 
-[[./documentation/pcb/raytrace.png]]
+[[./documentation/pcb/pcb.png]]
