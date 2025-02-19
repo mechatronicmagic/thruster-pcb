@@ -250,7 +250,7 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 686,
+      "Description": 688,
       "Item": 687
     },
     "columns": [
@@ -389,7 +389,7 @@
       "axes_enabled": false,
       "fast_grid_1": 4,
       "fast_grid_2": 5,
-      "last_size": 14,
+      "last_size": 16,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "show": true,

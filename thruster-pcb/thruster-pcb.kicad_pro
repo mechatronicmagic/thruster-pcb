@@ -517,7 +517,7 @@
         "pattern": "*+5V"
       },
       {
-        "netclass": "Power",
+        "netclass": "Super Power",
         "pattern": "*VBUS"
       }
     ]
