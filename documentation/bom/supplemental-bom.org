@@ -4,17 +4,18 @@
 * Supplemental BOM
 - Project Name: thruster-pcb
 - Synopsis: 
-- Release Date: 2025-02-16
+- Release Date: 2025-02-19
 - URL: https://github.com/mechatronicmagic/thruster-pcb
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
 #+BEGIN_TABLE
 #+LATEX: \adjustbox{max width=\linewidth}{
 #+ATTR_LATEX: :center nil
-| Item | Synopsis                                               | Manufacturer Part Number | Manufacturer        | Quantity |  Cost | Total |
-|------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|      | Supplemental BOM Version: 1.0 |                          |                     |          | Total | 40.11 |
-#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
+| Item | Synopsis                                               | Manufacturer Part Number | Manufacturer | Quantity | Cost  | Total |
+|------+--------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
+|    1 | Adafruit Feather nRF52840 Express                      |                     4062 | adafruit     |        1 | 24.95 | 24.95 |
+|------+--------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
+|      | Supplemental BOM Version: 1.0 |                          |              |          | Total | 24.95 |
+#+TBLFM: @2$1..@>>$1=@#-1::$7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+LATEX: }
 #+END_TABLE

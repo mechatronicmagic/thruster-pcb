@@ -56,10 +56,10 @@ no-skip-worktree-config:
 ls-files-config:
 	git ls-files .metadata/.config/ -v
 
-.PHONY: cropped
-cropped:
+.PHONY: cropped-svg
+cropped-svg:
 	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
-	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
+	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg && inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
 
 .PHONY: trimmed-images
 trimmed-images:

@@ -230,11 +230,12 @@ Hello $addressee
 
 #+NAME: supplemental-bom
 #+BEGIN_SRC org :noweb yes
-| Item | Synopsis                                               | Manufacturer Part Number | Manufacturer        | Quantity |  Cost | Total |
-|------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          | Total | 40.11 |
-,#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
+| Item | Synopsis                                               | Manufacturer Part Number | Manufacturer | Quantity | Cost  | Total |
+|------+--------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
+|    1 | Adafruit Feather nRF52840 Express                      |                     4062 | adafruit     |        1 | 24.95 | 24.95 |
+|------+--------------------------------------------------------+--------------------------+--------------+----------+-------+-------|
+|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |              |          | Total | 24.95 |
+,#+TBLFM: @2$1..@>>$1=@#-1::$7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+END_SRC
 
 * Repository Info
@@ -330,6 +331,171 @@ return bom
 ** Install Guix
 
 [[https://guix.gnu.org/manual/en/html_node/Binary-Installation.html][Install Guix]]
+
+** Generate Output from KiCad
+
+*** Remove previous versions
+
+#+BEGIN_SRC sh
+rm -rf ./documentation/3dmodels/* && rm -rf ./documentation/bom/* && rm -rf ./documentation/fabrication/* && rm -rf ./documentation/pcb/* && rm -rf ./documentation/schematic/*pcb
+#+END_SRC
+
+*** Images
+
+**** 3D Viewer
+
+Output directory: ../documentation/pcb
+
+ - pcb.png
+ - top.png
+ - bottom.png
+ - front.png
+ - back.png
+ - left.png
+ - right.png
+
+**** Trim
+
+#+BEGIN_EXAMPLE
+make trimmed-images
+#+END_EXAMPLE
+
+**** Schematic PDF
+
+File -> Plot
+
+Output directory: ../documentation/schematic
+
+Plot All Pages
+
+- Output format PDF
+- Page Size = Schematic size
+- Plot drawing sheet
+- Output mode = Color
+- Color theme = KiCad Default
+- Default line width = 0.006 in
+
+**** Schematic SVG
+
+File -> Plot
+
+Output directory: ../documentation/schematic
+
+Plot All Pages
+
+- Output format SVG
+- Page Size = Schematic size
+- Plot drawing sheet
+- Output mode = Color
+- Color theme = Solarized Light
+- Default line width = 0.012 in
+
+**** PCB SVG
+
+Add Edge.Cuts, holes, and dimensions to User.Drawings
+
+File -> Plot
+
+Output directory: ../documentation/pcb
+
+- Plot format SVG
+- Include Layers
+  - User.Drawings
+  - F.Silkscreen
+  - B.Silkscreen
+  - F.Fab
+  - B.Fab
+- Plot on All Layers
+  - Edge.Cuts
+- Plot footprint values
+- Plot reference designators
+- SVG Options
+  - Precision = 4
+  - Output mode = color
+
+#+BEGIN_EXAMPLE
+make cropped-svg
+#+END_EXAMPLE
+
+*** Fabrication Files
+
+**** Gerbers
+
+File -> Fabrication Outputs -> Gerbers (.gbr)
+
+Output directory: ../documentation/fabrication/gerbers
+
+Include Layers:
+- F.Cu
+- F.Paste
+- F.Silks
+- F.Mask
+- F.Fab
+- B.Cu
+- B.Paste
+- B.Silks
+- B.Mask
+- B.Fab
+- Edge.Cuts - (contain the board outline/cutouts.)
+- In1.Cu, In2.Cu … - (needed for 4/6 layer designs.)
+
+Options:
+- Select Plot reference designators, otherwise designators will not appear on silkscreen layers.
+- Select Check zone fills before plotting
+- Select Use Protel filename extensions, this is recommended as JLCPCB prefers Protel filename extensions.
+- Select Subtract soldermask from silkscreen, this ensures no silkscreen on pads.
+- Coordinate format 4.6 unit mm
+
+**** Drill and Map Files
+
+Output directory: ../documentation/fabrication/gerbers
+
+Options:
+- Excellon drill file format
+- Check Use alternate drill mode for "Oval Holes Drill Mode".
+- Check Absolute for "Drill Origin".
+- Check Millimeters for "Drill Units".
+- Check Decimal format for "Zeros Format".
+- Gerber X2 map file format
+
+Zip gerber files
+
+#+BEGIN_EXAMPLE
+zip ./documentation/fabrication/gerbers.zip ./documentation/fabrication/gerbers/*
+#+END_EXAMPLE
+
+**** BOM
+
+Generate BOM from schematic editor using blank command line to create bom xml file.
+
+**** POS
+
+File -> Fabrication Outputs -> Component Placement (.pos)
+
+Output directory: ../documentation/fabrication/
+
+Settings:
+- Format = CSV
+- Units = Millimeters
+- Files = Single file for board
+- Do not use drill/place file origin
+
+Modify pos files:
+- Ref -> Designator
+- PosX -> Mid X
+- PosY -> Mid Y
+- Rot -> Rotation
+- Side -> Layer
+
+**** Step
+
+File -> Export -> Step
+
+Output directory: ../documentation/3dmodels/pcb.step
+
+- Drill/place file origin
+- Overwrite old file
+- Standard Board outline chaining tolerance
 
 ** Edit metadata.org
 
@@ -481,10 +647,10 @@ no-skip-worktree-config:
 ls-files-config:
 	git ls-files .metadata/.config/ -v
 
-.PHONY: cropped
-cropped:
+.PHONY: cropped-svg
+cropped-svg:
 	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
-	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
+	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg && inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
 
 .PHONY: trimmed-images
 trimmed-images:
