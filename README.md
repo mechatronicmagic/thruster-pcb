@@ -1,15 +1,15 @@
-- [Repository Info](#orgc92ddc7)
-- [Images](#orgb0e5fd8)
-- [Schematic](#orgc084430)
-- [PCB](#org5247e85)
-- [Bill of Materials](#org412c495)
-- [Development](#org01d2cc8)
+- [Repository Info](#orgcf761ff)
+- [Images](#orga1b146e)
+- [Schematic](#org2f8730d)
+- [PCB](#orgee0fed7)
+- [Bill of Materials](#org8738594)
+- [Development](#org028dfc6)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgc92ddc7"></a>
+<a id="orgcf761ff"></a>
 
 # Repository Info
 
@@ -36,7 +36,7 @@
 ![img](./documentation/pcb/pcb.png)
 
 
-<a id="orgb0e5fd8"></a>
+<a id="orga1b146e"></a>
 
 # Images
 
@@ -53,7 +53,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="orgc084430"></a>
+<a id="org2f8730d"></a>
 
 # Schematic
 
@@ -70,7 +70,7 @@
 <img src="./documentation/schematic/thruster-pcb-thrusters.svg" width="1920">
 
 
-<a id="org5247e85"></a>
+<a id="orgee0fed7"></a>
 
 # PCB
 
@@ -85,16 +85,27 @@
 <img src="./documentation/pcb/thruster-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org412c495"></a>
+<a id="org8738594"></a>
 
 # Bill of Materials
 
 
 ## Board
 
-|    |
-|--- |
-|  |
+| Item | Synopsis                          | Manufacturer Part Number | Manufacturer                         | Quantity | Reference(s)                       | Package             |
+|---- |--------------------------------- |------------------------ |------------------------------------ |-------- |---------------------------------- |------------------- |
+| 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                               | 1210                |
+| 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 5        | C302 C401 C501 C502 C503           | 0402                |
+| 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                          | 0402                |
+| 4    | CAP CER 47UF 10V X5R              | CGA0805X5R476M100MT      | HRE                                  | 7        | C305 C504 C505 C506 C507 C508 C509 | 0805                |
+| 5    | DIODE SCHOTTKY 20V 1A             | MBR120VLSFT1G            | onsemi                               | 1        | D401                               | SOD-123FL           |
+| 6    | MAXIBR M 03POS RA A SMT BK        | 284052-E                 | TE Connectivity                      | 7        | J301 J501 J502 J503 J504 J505 J506 |                     |
+| 7    | RES SMD 1.8K OHM 5% 100mW         | ERJ2GEJ182X              | PANASONIC                            | 2        | R401 R402                          | 0402                |
+| 8    | 1 Digit SPST 24V 25mA DIP         | EM-01KP                  | Korean Hroparts Elec                 | 1        | SW401                              | SMD,2.5x6mm         |
+| 9    | DC-DC 5V 600mA Output 3-65V Input | TPSM365R6V5RDNR          | Texas Instruments                    | 1        | U301                               | QFN-11(3.5x4.5)     |
+| 10   | IC SWITCH DEBOUNCER               | MAX6816EUS+T             | Analog Devices Inc./Maxim Integrated | 1        | U401                               | SOT-143             |
+| 11   | IC LED DRVR LIN PWM 25MA          | PCA9685BS,118            | NXP Semicon                          | 1        | U501                               | SOT-788-1           |
+| 12   | IC TRANSLTR BIDIRECTIONAL         | TXS0108ERGYR             | Texas Instruments                    | 1        | U502                               | VQFN-20-EP(3.7x4.7) |
 
 
 ## Supplemental
@@ -106,7 +117,7 @@
 |      | Supplemental BOM Version: 1.0                                       |                          |              |          | Total | 39.94 |
 
 
-<a id="org01d2cc8"></a>
+<a id="org028dfc6"></a>
 
 # Development
 

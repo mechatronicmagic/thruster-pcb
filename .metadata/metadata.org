@@ -309,18 +309,32 @@ for file_path_string in file_path_strings:
 #+NAME: pcb-parts
 #+BEGIN_SRC python :noweb yes :exports results :results value table
 from kicad_bom import KicadBom
-kb = KicadBom('../<<project-name>>/', '../<<bom-dir>>')
-kb.save_all_csv_files()
-column_names = ['Item',
-                'Reference(s)',
-                'Description',
-                'Manufacturer Part Number',
-                'Manufacturer',
-                'Quantity',
-                'Package']
-format_for_org_table = True
-bom = kb.get_bom(column_names, format_for_org_table)
+kb = KicadBom(netlist_path='../<<project-name>>/')
+
+fields = ['Item',
+          'Synopsis',
+          'Manufacturer Part Number',
+          'Manufacturer',
+          'Quantity',
+          'Reference(s)',
+          'Package']
+bom = kb.get_bom(input_fields=fields, output_fields=fields, format_for_org_table=True)
 return bom
+#+END_SRC
+
+#+BEGIN_SRC python :noweb yes :exports results :results output raw
+from kicad_bom import KicadBom
+kb = KicadBom(netlist_path='../<<project-name>>/')
+
+input_fields = ['Synopsis',
+                'Reference',
+                'Package',
+                'LCSC']
+output_fields = ['Comment',
+                 'Designator',
+                 'Footprint',
+                 'LCSC']
+kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, output_fields)
 #+END_SRC
 
 ** Supplemental
@@ -539,7 +553,7 @@ exit
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "6dde0ee30e5e030c2535514e9e39aa50518a5d20")
+          "96fe9adf54772e0824e098a6a089306a75101218")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
